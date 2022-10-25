@@ -5,7 +5,7 @@ apt-get update
 apt-get install -y haproxy
 cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.default
 echo "
-listen 19018-lb-01
+listen 42876-lb-01
 	bind *:80
 	mode http
 	balance roundrobin

@@ -9,4 +9,4 @@ sudo apt-get install nginx -y
 sudo sed -i 's/8080/80/g' /etc/nginx/sites-enabled/default
 ## line service nginx restart
 sudo service nginx restart
-
+ 
